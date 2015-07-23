@@ -1,7 +1,7 @@
 ## Put comments here that give an overall description of what your
-## functions do
-
 ## Write a short comment describing this function
+
+## makeCacheMatrix takes a matrix as an argument and outputs a list of functions ## and results. including a cached inverse matrix.
 
 makeCacheMatrix <- function(x = matrix()) {
 ##create a blank matrix
