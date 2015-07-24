@@ -22,9 +22,9 @@ set <- function(y) {
 }
 
 ## Write a short comment describing this function
-##checks for if cache of solved inverse matrix,
-##if it exists cached, it passes it out, if it doesn't it
-##creates it
+##checks for cache of solved inverse matrix,
+##if it exists cached, it passes inverse gets returned, if it doesn't it
+##creates the inverse matrix and returns it
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
         inv <-x$getinvmatrix()
